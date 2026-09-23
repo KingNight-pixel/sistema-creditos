@@ -1,0 +1,31 @@
+
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-link {
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+
+.menu-link:hover {
+    background: #1e293b;
+    color: #38bdf8;
+}
+
+button,
+a {
+    cursor: pointer;
+}
